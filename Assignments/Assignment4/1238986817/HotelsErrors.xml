@@ -1,6 +1,6 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
+<Hotel xmlns ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
 xmlns:bs ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd">   
@@ -104,6 +104,7 @@ xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignm
 
     <Hotel>
         <Name>TWA Hotel</Name>
+        <Name>TWA Hotel At Joh F. kennedy International Airport</Name>
         <Address NearestAirport="JFK">
             <Number>1</Number>
             <Street>Idlewild Drive</Street>
@@ -126,4 +127,4 @@ xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignm
         <Phone>+1 813-879-5151</Phone>
     </Hotel>
 
-</Hotels>
+</Hotel>
