@@ -1,9 +1,9 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
-xmlns:bs ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
+<Hotels xmlns ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/1238986817/Hotels.xsd"
+xmlns:bs ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/1238986817/Hotels.xsd"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd">   
+xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/1238986817/Hotels.xsd">   
 
     <Hotel Rating="4.7">
         <Name>Grand Hyatt at SFO</Name>
