@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns ht="ttps://example.com/hotels"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="Https://example.com/hotels Hotels.xsd">   
+xsi:schemaLocation="https://example.com/hotels https://github.com/rmbogne/ASU/edit/main/Assignments/Assignment4/1238986817/Hotels.xsd">   
 
     <Hotel Rating="4.7">
         <Name>Grand Hyatt at SFO</Name>
