@@ -3,7 +3,7 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://example.com/hotels"
     xmlns:ht="https://example.com/hotels"
-    elementFormDefault="unqualified" 
+    elementFormDefault="qualified" 
     attributeFormDefault="unqualified">
 
     <!-- Root Element -->
