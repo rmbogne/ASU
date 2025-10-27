@@ -1,130 +1,128 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
-xmlns:bs ="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://github.com/rmbogne/ASU/tree/main/Assignments/Assignment4/xml/Hotels.xsd">   
+<ht:Hotels xmlns:ht="http://example.com/ht"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://example.com/ht Hotels.xsd">   
 
-    <Hotel Rating="4.7">
-        <Name>Grand Hyatt at SFO</Name>
-        <Address NearestAirport="SFO">
-            <Number>55</Number>
-            <Street>South McDonnell Road</Street>
-            <City>San Francisco</City>
-            <State>CA</State>
-            <Zip>94128</Zip>
-        </Address>
-        <Phone>+1 650 452 1234</Phone>
-    </Hotel>
 
-    <Hotel Rating="4.4">
-        <Name>Westin Denver</Name>
-        <Address>
-            <Number>8300</Number>
-            <Street>Peña Boulevard</Street>
-            <City>Denver</City>
-            <State>CO</State>
-            <Zip>80249</Zip>
-        </Address>
-        <Phone>+1 303-317-1800</Phone>
-        <Phone>+1 800-247-2336</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.7">
+        <ht:Name>Grand Hyatt at SFO</ht:Name>
+        <ht:Address NearestAirport="SFO">
+            <ht:Number>55</ht:Number>
+            <ht:Street>South McDonnell Road</ht:Street>
+            <ht:City>San Francisco</ht:City>
+            <ht:State>CA</ht:State>
+            <ht:Zip>94128</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 650 452 1234</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.5">
-        <Name>Hyatt Regency Orlando Airport </Name>
-        <Address NearestAirport="MCO">
-            <Number>9300</Number>
-            <Street>Jeff Fuqua Blvd</Street>
-            <City>Orlando</City>
-            <State>FL</State>
-            <Zip>32827</Zip>
-        </Address>
-    </Hotel>
+    <ht:Hotel Rating="4.4">
+        <ht:Name>Westin Denver</ht:Name>
+        <ht:Address NearestAirport="DCO">
+            <ht:Number>8300</ht:Number>
+            <ht:Street>Peña Boulevard</ht:Street>
+            <ht:City>Denver</ht:City>
+            <ht:State>CO</ht:State>
+            <ht:Zip>80249</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 303-317-1800</ht:Phone>
+        <ht:Phone>+1 800-247-2336</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.6">
-        <Name>Grand Hyatt DFW</Name>
-        <Address NearestAirport="DFW">
-            <Number>2337</Number>
-            <Street>South International Parkway</Street>
-            <City>Dallas</City>
-            <State>TX</State>
-            <Zip>75261</Zip>
-        
-        <Phone>+1 972 973 1234</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.5">
+        <ht:Name>Hyatt Regency Orlando Airport </ht:Name>
+        <ht:Address NearestAirport="MCO">
+            <ht:Number>9300</ht:Number>
+            <ht:Street>Jeff Fuqua Blvd</ht:Street>
+            <ht:City>Orlando</ht:City>
+            <ht:State>FL</ht:State>
+            <ht:Zip>32827</ht:Zip>
+        </ht:Address>
+    </ht:Hotel>
 
-    <Hotel>
-        <Name>Hilton Boston Logan</Name>
-        <Name>Hilton Boston Logan at Logan Airport</Name>
-        <Address NearestAirport="BOS">
-            <Number>1</Number>
-            <Street>Hotel Drive</Street>
-            <City>Minneapolis</City>
-            <State>MN</State>
-            <Zip>55450</Zip>
-        </Address>
-        <Phone>+1 (617) 568-6700</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.6">
+        <ht:Name>Grand Hyatt DFW</ht:Name>
+        <ht:Address NearestAirport="DFW">
+            <ht:Number>2337</ht:Number>
+            <ht:Street>South International Parkway</ht:Street>
+            <ht:City>Dallas</ht:City>
+            <ht:State>TX</ht:State>
+            <ht:Zip>75261</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 972 973 1234</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.3">
-        <Name>Intercontinental Minneapolis</Name>
-        <Address NearestAirport="MSP">
-            <Number>5005</Number>
-            <Street>Glumack Drive</Street>
-            <City>Boston</City>
-            <State>MA</State>
-            <Zip>02128</Zip>
-        </Address>
-        <Phone>+1 (612) 725-0500</Phone>
-    </Hotel>
+    <ht:Hotel>
+        <ht:Name>Hilton Boston Logan</ht:Name>
+        <ht:Name>Hilton Boston Logan at Logan Airport</ht:Name>
+        <ht:Address NearestAirport="BOS">
+            <ht:Number>1</ht:Number>
+            <ht:Street>Hotel Drive</ht:Street>
+            <ht:City>Minneapolis</ht:City>
+            <ht:State>MN</ht:State>
+            <ht:Zip>55450</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 (617) 568-6700</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.3">
-        <Name>Westin Detroit</Name>
-        <Address NearestAirport="DTW">
-            <Number>2501</Number>
-            <Street>Worldgateway Place</Street>
-            <City>Detroit</City>
-            <State>MI</State>
-            <Zip>48242</Zip>
-        </Address>
-        <Phone>+1 734-942-6500</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.3">
+        <ht:Name>Intercontinental Minneapolis</ht:Name>
+        <ht:Address NearestAirport="MSP">
+            <ht:Number>5005</ht:Number>
+            <ht:Street>Glumack Drive</ht:Street>
+            <ht:City>Boston</ht:City>
+            <ht:State>MA</ht:State>
+            <ht:Zip>02128</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 (612) 725-0500</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.6">
-        <Name>The Venetian Las Vegas</Name>
-        <Address NearestAirport="LAS">
-            <Number>3555</Number>
-            <Street>S Las Vegas Blvd</Street>
-            <City>LAS VEGAS</City>
-            <State>NV</State>
-            <Zip>89109</Zip>
-        </Address>
-        <Phone>+1 866 725-2990</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.3">
+        <ht:Name>Westin Detroit</ht:Name>
+        <ht:Address>
+            <ht:Number>2501</ht:Number>
+            <ht:Street>Worldgateway Place</ht:Street>
+            <ht:City>Detroit</ht:City>
+            <ht:State>MI</ht:State>
+            <ht:Zip>48242</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 734-942-6500</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel>
-        <Name>TWA Hotel</Name>
-        <Name>TWA Hotel At Joh F. kennedy International Airport</Name>
-        <Address NearestAirport="JFK">
-            <Number>1</Number>
-            <Street>Idlewild Drive</Street>
-            <City>Jamaica</City>
-            <State>NY</State>
-            <Zip>11430</Zip>
-        </Address>
-        <Phone>+1 212 806-9000</Phone>
-    </Hotel>
+    <ht:Hotel Rating="4.6">
+        <ht:Name>The Venetian Las Vegas</ht:Name>
+        <ht:Address NearestAirport="LAS">
+            <ht:Number>3555</ht:Number>
+            <ht:Street>S Las Vegas Blvd</ht:Street>
+            <ht:City>LAS VEGAS</ht:City>
+            <ht:State>NV</ht:State>
+            <ht:Zip>89109</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 866 725-2990</ht:Phone>
+    </ht:Hotel>
 
-    <Hotel Rating="4.4">
-        <Name>Marriott Hotel at Tampa Airport</Name>
-        <Address NearestAirport="JFK">
-            <Number>4200</Number>
-            <Street>George J. Bean Pkwy,</Street>
-            <City>Tampa</City>
-            <State>FL</State>
-            <Zip>33607</Zip>
-        </Address>
-        <Phone>+1 813-879-5151</Phone>
-    </Hotel>
+    <ht:Hotel>
+        <ht:Name>TWA Hotel</ht:Name>
+        <ht:Address NearestAirport="JFK">
+            <ht:Number>1</ht:Number>
+            <ht:Street>Idlewild Drive</ht:Street>
+            <ht:City>Jamaica</ht:City>
+            <ht:State>NY</ht:State>
+            <ht:Zip>11430</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 212 806-9000</ht:Phone>
+    </ht:Hotel>
 
-</Hotel>
+    <ht:Hotel Rating="4.4">
+        <ht:Name>Marriott Hotel at Tampa Airport</ht:Name>
+        <ht:Address NearestAirport="JFK">
+            <ht:Number>4200</ht:Number>
+            <ht:Street>George J. Bean Pkwy,</ht:Street>
+            <ht:City>Tampa</ht:City>
+            <ht:State>FL</ht:State>
+            <ht:Zip>33607</ht:Zip>
+        </ht:Address>
+        <ht:Phone>+1 813-879-5151</ht:Phone>
+    </ht:Hotel>
+
+</ht:Hotels>

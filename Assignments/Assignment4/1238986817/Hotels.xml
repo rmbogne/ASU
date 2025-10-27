@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ht:Hotels xmlns ht="ttps://example.com/hotels"
+<ht:Hotels xmlns:ht="http://example.com/ht"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="https://example.com/hotels https://github.com/rmbogne/ASU/edit/main/Assignments/Assignment4/1238986817/Hotels.xsd">   
+           xsi:schemaLocation="http://example.com/ht Hotels.xsd">   
 
 
     <ht:Hotel Rating="4.7">
@@ -18,7 +18,7 @@
 
     <ht:Hotel Rating="4.4">
         <ht:Name>Westin Denver</ht:Name>
-        <ht:Address>
+        <ht:Address NearestAirport="DCO">
             <ht:Number>8300</ht:Number>
             <ht:Street>Peña Boulevard</ht:Street>
             <ht:City>Denver</ht:City>
@@ -38,6 +38,7 @@
             <ht:State>FL</ht:State>
             <ht:Zip>32827</ht:Zip>
         </ht:Address>
+        <ht:Phone>+1 800-247-2336</ht:Phone>
     </ht:Hotel>
 
     <ht:Hotel Rating="4.6">
@@ -48,13 +49,12 @@
             <ht:City>Dallas</ht:City>
             <ht:State>TX</ht:State>
             <ht:Zip>75261</ht:Zip>
-        
+        </ht:Address>
         <ht:Phone>+1 972 973 1234</ht:Phone>
     </ht:Hotel>
 
     <ht:Hotel>
         <ht:Name>Hilton Boston Logan</ht:Name>
-        <ht:Name>Hilton Boston Logan at Logan Airport</ht:Name>
         <ht:Address NearestAirport="BOS">
             <ht:Number>1</ht:Number>
             <ht:Street>Hotel Drive</ht:Street>
